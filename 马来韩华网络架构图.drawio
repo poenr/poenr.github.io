@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="第 1 页" id="ZvpaHXbZWsmoNcLXemDf">
-    <mxGraphModel dx="1967" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,18 @@
           <mxGeometry height="1615" width="233" x="547" y="15" as="geometry" />
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="设备内网" vertex="1">
-          <mxGeometry height="1615" width="471" y="15" as="geometry" />
+          <mxGeometry height="1615" width="471" x="9" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXL19gDFTUybBuWF6ha5-3" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HXL19gDFTUybBuWF6ha5-4" connectable="0" parent="HXL19gDFTUybBuWF6ha5-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网内网端口*4" vertex="1">
+          <mxGeometry relative="1" x="-0.4786" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 1;" value="制绒工艺段" vertex="1">
           <mxGeometry height="130" width="204" x="256" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vDLTM_6oJ-gLbOjzNTH3-49" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-50" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-21">
           <mxGeometry relative="1" as="geometry" />
@@ -22,20 +27,11 @@
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;制绒工艺段数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="276" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="vDLTM_6oJ-gLbOjzNTH3-44" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒上料自动化" vertex="1">
           <mxGeometry height="15" width="140" x="276" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="vDLTM_6oJ-gLbOjzNTH3-42" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒工艺主机" vertex="1">
           <mxGeometry height="15" width="140" x="276" y="110" as="geometry" />
-        </mxCell>
-        <mxCell id="vDLTM_6oJ-gLbOjzNTH3-46" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒下料自动化" vertex="1">
           <mxGeometry height="15" width="140" x="276" y="130" as="geometry" />
@@ -52,11 +48,29 @@
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-21" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;MES管理网络交换机&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="592" y="470" as="geometry" />
         </mxCell>
+        <mxCell id="HXL19gDFTUybBuWF6ha5-5" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="266" />
+              <mxPoint x="190" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXL19gDFTUybBuWF6ha5-6" connectable="0" parent="HXL19gDFTUybBuWF6ha5-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网端口*4" vertex="1">
+          <mxGeometry relative="1" x="-0.6134" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="BSG+碱抛工艺段" vertex="1">
           <mxGeometry height="127.5" width="204" x="256" y="202.5" as="geometry" />
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-51" edge="1" parent="1" source="vDLTM_6oJ-gLbOjzNTH3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vDLTM_6oJ-gLbOjzNTH3-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HXL19gDFTUybBuWF6ha5-7" connectable="0" parent="vDLTM_6oJ-gLbOjzNTH3-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;MES管理网络端口*7&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1406" y="2" as="geometry">
+            <mxPoint x="54" y="11" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vDLTM_6oJ-gLbOjzNTH3-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BSG+碱抛&lt;/span&gt;数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="276" y="290" as="geometry" />
@@ -73,8 +87,8 @@
         <mxCell id="n2x4XH2n4hZDkri0Z_Se-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="XX工艺段" vertex="1">
           <mxGeometry height="120" width="204" x="256" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="n2x4XH2n4hZDkri0Z_Se-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="自动化+主机设备所需网络端口&amp;nbsp; 3 * 7 = 24&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;数据采集PC及所需网络端口 2 * 7 = 14&lt;/div&gt;" vertex="1">
-          <mxGeometry height="215" width="240" x="870" y="105" as="geometry" />
+        <mxCell id="n2x4XH2n4hZDkri0Z_Se-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;设备内网：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;接入有自动化+主机设备+PC机共X台，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;所需网络端口&amp;nbsp; X 个&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MES管理网络：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;接入有数据采集PC，所需网络端口 7 个&lt;/div&gt;" vertex="1">
+          <mxGeometry height="215" width="350" x="810" y="150" as="geometry" />
         </mxCell>
         <mxCell id="n2x4XH2n4hZDkri0Z_Se-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="XX工艺段" vertex="1">
           <mxGeometry height="120" width="204" x="256" y="490" as="geometry" />
