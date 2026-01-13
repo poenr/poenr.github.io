@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram name="第 1 页" id="v_ZDszYHoQgu-86BEvzW">
+    <mxGraphModel dx="1055" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="MES管理网络" vertex="1">
+          <mxGeometry height="865" width="233" x="547" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="设备内网" vertex="1">
+          <mxGeometry height="865" width="471" x="20" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-97" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-98" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网内网端口*4" vertex="1">
+          <mxGeometry relative="1" x="-0.4786" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 1;" value="制绒工艺段" vertex="1">
+          <mxGeometry height="140" width="204" x="256" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-100" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;制绒工艺段数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="288" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒上料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒工艺主机" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制绒下料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-105" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="qdm0f5NOuYU8mxXWGhrR-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-106" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MES系统服务器" vertex="1">
+          <mxGeometry height="80" width="60" x="637" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-107" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;设备内网交换机&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-108" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;MES管理网络交换机&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="592" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-109" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" target="qdm0f5NOuYU8mxXWGhrR-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="458" />
+              <mxPoint x="190" y="458" />
+              <mxPoint x="190" y="691" />
+            </Array>
+            <mxPoint x="256" y="493.25" as="sourcePoint" />
+            <mxPoint x="170" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-110" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网端口*6" vertex="1">
+          <mxGeometry relative="1" x="-0.6134" y="-1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="BSG+碱抛工艺段" vertex="1">
+          <mxGeometry height="217.5" width="204" x="256" y="400.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-112" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-113" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-112" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;MES管理网络端口*7&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1406" y="2" as="geometry">
+            <mxPoint x="99" y="99" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BSG+碱抛&lt;/span&gt;数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="287" y="578" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BSG上料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="碱抛工艺主机" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="碱抛下料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;ne-text&quot; style=&quot;color: rgb(44, 44, 54);&quot;&gt;&lt;font&gt;系统由7&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(44, 44, 54); background-color: transparent;&quot;&gt;套&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(44, 44, 54), rgb(198, 198, 206)); background-color: transparent;&quot;&gt;（镀膜主机+自动化（4套)、湿法主机+自动化（3套））独立的边缘计算节点组成，部署在对应工艺段设备顶部的PC机上，由不间断电源独立供电，每台PC机配备双网卡，实现内部设备网络与外部MES管理网络的隔离；&lt;/span&gt;&lt;/p&gt;&lt;font&gt;设备内网：&lt;br&gt;接入有自动化+主机设备+PC机共28台，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;所需网络端口 28 个&lt;/span&gt;&lt;br&gt;MES管理网络：&lt;br&gt;接入有数据采集PC，所需网络端口 7 个&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="780" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-119" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-120" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-119" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网端口*12" vertex="1">
+          <mxGeometry relative="1" x="-0.182" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="镀膜工艺段" vertex="1">
+          <mxGeometry height="190" width="204" x="256" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BSG下料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BSG工艺主机" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-124" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-125" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-124" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="设备内网端口*6" vertex="1">
+          <mxGeometry relative="1" x="-0.2231" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=1 2;" value="PSG+RCA工艺段" vertex="1">
+          <mxGeometry height="217.5" width="204" x="256" y="629.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PSG+RCA&lt;/span&gt;数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="288" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PSG上料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RCA工艺主机" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="748" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RCA下料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="778" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PSG下料自动化" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PSG工艺主机" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-133" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="708" as="sourcePoint" />
+            <mxPoint x="460" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="正膜自动化*2" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="898" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="正膜工艺主机*2" vertex="1">
+          <mxGeometry height="15" width="140" x="287" y="928" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="背膜自动化*2" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="958" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="背膜工艺主机*2" vertex="1">
+          <mxGeometry height="15" width="140" x="288" y="985.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-138" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;镀膜数据采集PC&lt;br&gt;双网卡*4&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="287" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="qdm0f5NOuYU8mxXWGhrR-141" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=top;rounded=0;" value="&lt;h1&gt;马来韩华工业数据采集系统网络架构图&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
