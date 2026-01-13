@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="MES管理网络" vertex="1">
-          <mxGeometry height="865" width="233" x="547" y="213" as="geometry" />
+          <mxGeometry height="865" width="203" x="547" y="213" as="geometry" />
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;" value="设备内网" vertex="1">
-          <mxGeometry height="865" width="471" x="20" y="213" as="geometry" />
+          <mxGeometry height="865" width="450" x="20" y="213" as="geometry" />
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-97" edge="1" parent="1" source="qdm0f5NOuYU8mxXWGhrR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qdm0f5NOuYU8mxXWGhrR-107">
           <mxGeometry relative="1" as="geometry" />
@@ -72,7 +72,7 @@
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-113" connectable="0" parent="qdm0f5NOuYU8mxXWGhrR-112" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: rgb(102, 255, 102);&quot;&gt;MES管理网络端口*7&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1406" y="2" as="geometry">
-            <mxPoint x="99" y="99" as="offset" />
+            <mxPoint x="152" y="91" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BSG+碱抛&lt;/span&gt;数据采集PC&lt;br&gt;双网卡&lt;/p&gt;" vertex="1">
