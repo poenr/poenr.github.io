@@ -43,7 +43,7 @@
           <mxGeometry height="80" width="60" x="637" y="303" as="geometry" />
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-107" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;设备内网交换机&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="20" y="668" as="geometry" />
+          <mxGeometry height="60" width="120" x="40" y="668" as="geometry" />
         </mxCell>
         <mxCell id="qdm0f5NOuYU8mxXWGhrR-108" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;MES管理网络交换机&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="150" x="592" y="668" as="geometry" />
