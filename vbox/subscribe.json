@@ -12,7 +12,7 @@
   {
    "name": "②本地精选·实测81线路",
    "type": 0,
-   "url": "./live_checked.m3u",
+   "url": "https://poenr.github.io/vbox/live_checked.m3u",
    "playerType": 2,
    "timeout": 10
   },
@@ -37,11 +37,6 @@
    "url": "https://guovin.github.io/iptv-api/result.m3u",
    "playerType": 2,
    "timeout": 15
-  },
-  {
-   "name": "牛播一",
-   "url": "http://127.0.0.1:9978/proxy?do=cctva",
-   "timeZone": "Asia/Shanghai"
   },
   {
    "name": "虎牙一起看",
